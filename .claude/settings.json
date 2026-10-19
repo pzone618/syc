@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(uv *)",
+      "PowerShell(claude mcp *)",
+      "Bash(uv --version)",
+      "PowerShell(python c:\\\\Work\\\\dev\\\\ed_p\\\\.tmp_scan.py)",
+      "PowerShell(python c:\\\\Work\\\\dev\\\\ed_p\\\\.tmp_p105.py 2>$null)",
+      "PowerShell(Write-Output \"uv: $\\(\\(Get-Command uv -ErrorAction SilentlyContinue\\).Source\\)\"; Write-Output \"claude: $\\(\\(Get-Command claude -ErrorAction SilentlyContinue\\).Source\\)\"; Write-Output \"claude.exe\\(local\\): $\\(Test-Path \"$env:USERPROFILE\\\\.claude\\\\local\\\\claude.exe\"\\)\"; Write-Output \"claude.exe\\(prog\\): $\\(Test-Path \"$env:USERPROFILE\\\\AppData\\\\Local\\\\Programs\\\\claude\\\\claude.exe\"\\)\")",
+      "WebSearch",
+      "WebFetch(domain:www.ibm.com)"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "chrome-devtools",
+    "context7",
+    "next-devtools",
+    "playwright",
+    "everything",
+    "memory",
+    "git"
+  ]
+}

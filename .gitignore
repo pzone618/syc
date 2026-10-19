@@ -1,0 +1,37 @@
+# Generated plugin packages; retain source directories under artifacts/.
+/artifacts/*.zip
+/artifacts/*.tar.gz
+/artifacts/*.tgz
+
+# Machine-specific configuration and credentials.
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+
+# Runtime caches and temporary files.
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.cache/
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+~$*
+
+# Operating system metadata.
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Personal journals, IELTS evidence and plugin source are intentionally tracked.

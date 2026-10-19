@@ -1,0 +1,29 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Productivity",
+    "defaultPrompt": [
+      "帮我同时改善职业与收入、学习能力、行动与习惯，从了解我的现状开始。",
+      "开始今天的十分钟行动检查。",
+      "根据我的成长记录做一次每周复盘，并调整下一周计划。"
+    ],
+    "developerName": "Leon Yu",
+    "displayName": "Growth Coach",
+    "longDescription": "围绕职业与收入、学习能力、行动与习惯提供个人现状梳理、七日实验、主动回忆练习、每日检查和每周复盘。受指定访谈启发，并明确区分访谈观点与新增教练方法。以可携带的 Markdown 记录交接进度，不依赖自动跨对话记忆，不承诺收入或自动提醒。",
+    "shortDescription": "把职业目标变成学习、行动与复盘"
+  },
+  "name": "growth-coach",
+  "version": "0.2.0",
+  "description": "中文成长教练：连接职业与收入、主动学习和日常行动，用小实验与证据复盘持续调整。",
+  "author": {
+    "name": "Leon Yu",
+    "email": "leon.i.long.yu@gmail.com"
+  },
+  "keywords": [
+    "career",
+    "learning",
+    "habits",
+    "coaching"
+  ],
+  "skills": "./skills"
+}
